@@ -1,0 +1,8 @@
+gvnlst = list(map(int, input(
+    'Enter some random List Elements separated by spaces = ').split()))
+nwlist = []
+gvnlstlen = len(gvnlst)
+for m in range(gvnlstlen):
+    if(gvnlst[m] != 0):
+        nwlist.append(m)
+print('The non zero elements indices in the given list are = ', nwlist)
